@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to right top, #5ca3a0, #48acb4, #2db3cc, #00bae6, #00bfff);
+}
+
+/* fade-slide */
+.fade-slide-leave-active,
+.fade-slide-enter-active {
+  transition: all 0.3s;
+}
+
+.fade-slide-enter-from {
+  transform: translateX(-30px);
+  opacity: 0;
+}
+
+.fade-slide-leave-to {
+  transform: translateX(30px);
+  opacity: 0;
+}
